@@ -8,7 +8,7 @@ int main() {
     const int size = 10;
     int A[size] = {0};
     
-    // Fill data 
+    // Fill random data 
     for (int i = 0; i < size; i++) 
         A[i] = rand() % size;
     
